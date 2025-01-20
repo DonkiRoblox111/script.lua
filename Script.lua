@@ -3,8 +3,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/P
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Phatdepzaicrystal/Script/refs/heads/main/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "DonkiRoblox",
-    SubTitle = "BloxFruit",
+    Title = "PhatCrystalZzz",
+    SubTitle = "🤓Like And Sub My Channel💤",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = false,
@@ -5527,18 +5527,11 @@ end)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 --RaceV4
-
-Tabs.Race:AddButton({
-    Title = "Tele To Great Tree(Top) ",
-    Description = "",
-    Callback = function()
-        Tween2(CFrame.new(2947.556884765625, 2281.630615234375, -7213.54931640625))
-})
 Tabs.Race:AddButton({
     Title = "Timple Of Time",
     Description = "",
     Callback = function()
-        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.(CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875))
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
     end
 })
 
