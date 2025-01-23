@@ -12,15 +12,15 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Main = Window:AddTab({ Title = "Farm", Icon = "home" }),
     Setting = Window:AddTab({ Title = "Settings", Icon = "settings" }),
     Player = Window:AddTab({ Title = "PvP", Icon = "baby" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Fruit", Icon = "cherry" }),
+    Teleport = Window:AddTab({ Title = "Dịch Chuyển", Icon = "palmtree" }),
+    Fruit = Window:AddTab({ Title = "Trái Cây", Icon = "cherry" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Race", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Race = Window:AddTab({ Title = "Tộc", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Bán Đồ", Icon = "shopping-cart" }),
+	Misc = Window:AddTab({ Title = "Thứ Khác", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 do
